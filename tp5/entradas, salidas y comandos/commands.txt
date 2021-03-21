@@ -1,0 +1,4 @@
+flex scanner.l 
+bison parser.y
+gcc -Wall *.c -o scantest -lfl
+./scantest <entrada.txt > salida.txt

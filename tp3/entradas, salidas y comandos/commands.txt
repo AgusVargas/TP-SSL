@@ -1,0 +1,3 @@
+flex scanner.l
+gcc -g -Wall scanner.c main.c -o scantest -lfl
+./scantest <entrada.txt > salida.txt
